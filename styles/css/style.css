@@ -319,7 +319,8 @@ section {
   align-items: center;
 }
 .newsletter h2, .newsletter .slogan {
-  widows: 100;
+  text-align: center;
+  width: 100%;
   color: #fff;
 }
 .newsletter p {
@@ -784,5 +785,103 @@ section {
   }
   .footer .top-footer .ul-wrap ul:last-child {
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    line-height: 80px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header nav {
+    display: none;
+  }
+  .header .menu-btn {
+    display: block;
+    color: #31353e;
+  }
+  .header .menu-btn .burger {
+    border: none;
+    width: 35px;
+    height: 30px;
+    background: url(../../images/button.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .welcome-section .welcome-dish-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .welcome-section .welcome-dish-list li {
+    min-width: 240px;
+  }
+
+  .our-news .img-wrap {
+    max-width: 350px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .our-news .img-wrap img {
+    max-width: 350px;
+  }
+  .our-news h2, .our-news .slogan {
+    margin-bottom: 40px;
+  }
+  .our-news .news-list {
+    justify-content: center;
+  }
+  .our-news .news-list li {
+    margin-right: 0;
+  }
+
+  .newsletter p {
+    padding: 0;
+    text-align: center;
+  }
+
+  .news-list li p {
+    margin-bottom: 15px;
+  }
+
+  .product-details {
+    padding-bottom: 0;
+  }
+
+  .product-list li {
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  .product-list li .details {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .product-list li:nth-child(odd) .details {
+    order: 0;
+  }
+
+  .footer .top-footer {
+    padding: 40px 0;
+  }
+  .footer .top-footer .ul-wrap ul {
+    margin-bottom: 20px;
+  }
+  .footer .top-footer .ul-wrap ul:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1116px) {
+  .product-list li {
+    justify-content: center;
+  }
+  .product-list li:nth-child(odd) .details {
+    order: 0;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .news-list {
+    justify-content: center;
   }
 }

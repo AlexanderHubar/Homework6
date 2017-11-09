@@ -1,0 +1,16 @@
+.btn {
+  background-color: $white;
+  border: none;
+  border-radius: 27px;
+  padding: 15px 60px;
+  color: $btn-dark-red;
+  &:hover {
+    background-color: $nav-btn-color;
+    color: $white;
+    cursor: pointer;
+  }
+}
+a.btn {
+  display: inline-block;
+  text-decoration: none
+}

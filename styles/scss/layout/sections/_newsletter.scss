@@ -1,0 +1,40 @@
+.newsletter {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  color: $white;
+  background:
+          linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,128,128,0) 100%),
+          url("../../images/newsletter-back.jpg") no-repeat;
+  background-size: cover;
+  h2 {
+    widows: 100;
+    color: $white;
+  }
+  p{
+    padding: 0 320px;
+    margin-bottom: 45px;
+  }
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    outline: none;
+    &[type="text"] {
+      height: 54px;
+      padding: 0 60px 0 10%;
+      min-width: 350px;
+      border: 1px solid $input-border;
+      border-radius: 27px;
+      box-sizing: border-box;
+      background: rgba(256, 256, 256, .2);
+    }
+    &[type="button"] {
+      margin-left: -10%;
+    }
+  }
+}

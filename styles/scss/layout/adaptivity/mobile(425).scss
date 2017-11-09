@@ -1,0 +1,123 @@
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  h2, .slogan {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .slogan {
+    margin-bottom: 80px;
+  }
+  section {
+    box-sizing: border-box;
+    padding: 25px 0;
+  }
+  .header {
+    padding: 25px 0;
+      .container {
+        justify-content: space-around;
+      }
+      nav {
+        display: none;
+      }
+      .menu-btn {
+        display: block;
+        color: $nav-link-color;
+        .burger {
+          border: none;
+          width: 35px;
+          height: 30px;
+          background: url(../../images/button.png) no-repeat center;
+          background-size: cover;
+        }
+      }
+    }
+  .welcome-section {
+    .welcome-dish-list {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .welcome-dish-list li {
+      margin-bottom: 40px;
+    }
+    .welcome-section .img-wrap {
+      height: 120px;
+      width: 120px;
+      margin-bottom: 15px;
+    }
+  }
+  .our-news {
+    background-color: $our-news-back;
+    padding-bottom: 30px;
+    .img-wrap {
+      width: 200px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      img {
+        max-width: 200px;
+      }
+    }
+    h2 {
+      margin-bottom: 40px;
+    }
+    .news-list {
+      justify-content: center;
+      li {
+        margin-right: 0;
+      }
+    }
+  }
+  .newsletter {
+    p {
+      padding: 0;
+      text-align: center;
+    }
+    .sign-up {
+      flex-wrap: wrap;
+      input {
+        margin-bottom: 10px;
+        &[type="text"]{
+          min-width: 310px;
+        }
+        &[type="button"]{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .news-list li p {
+    margin-bottom: 15px;
+  }
+  .product-details {
+    padding-bottom: 0;
+  }
+  .product-list li {
+    margin-bottom: 25px;
+  }
+  .product-list li .details {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  .product-list li:nth-child(odd) .details {
+    order: 0;
+  }
+  .footer {
+    .top-footer {
+      padding: 40px 0;
+      .ul-wrap ul{
+        margin-bottom: 20px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+

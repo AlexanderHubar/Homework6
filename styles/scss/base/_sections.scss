@@ -1,0 +1,9 @@
+section {
+  padding: 90px 0;
+}
+.container {
+  @include display-flex;
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}

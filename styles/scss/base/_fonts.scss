@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+
+body {
+  @include font(300, 14px, $Roboto-font);
+  line-height: 30px;
+}
+h1 {
+  @include font(300, 72px, $Slab-font);
+  line-height: 80px;
+  margin-bottom: 25px;
+}
+h2 {
+  @include font(700, 30px, $Slab-font);
+  margin-bottom: 20px;
+  line-height: 40px;
+  color: $h2-gray;
+}
+h3 {
+  @include font(700, 24px, $Slab-font);
+  margin-bottom: 10px;
+}
+.welcome-section h2 {
+  color: $white;
+}
+.our-news h2 {
+  margin-bottom: 80px;
+}
+.slogan {
+  display: block;
+  @extend h2;
+  margin-bottom: 120px;
+}
+::-webkit-input-placeholder {
+  @include font(400, 18px, "Roboto Slab");
+  color: $white;
+}
+.btn {
+  @include font(400, 18px, $Slab-font);
+}
+a.btn {
+  @include font(300, 15px, $Roboto-font);
+  color: $h2-gray;
+}
+.sign-up input[type="text"] {
+  @include font(400, 18px, $Slab-font);
+  color: $white;
+}
+.product-details {
+  p {
+    @include font(300, 16px, $Roboto-font);
+  }
+  a.btn {
+    @include font(400, 18px, $Slab-font);
+    color: $white;
+  }
+}
+
+.footer {
+  color: $white;
+  .bottom-footer {
+    @include font(400, 18px, $Roboto-font);
+  }
+}

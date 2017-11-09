@@ -83,12 +83,6 @@
       flex-wrap: wrap;
       input {
         margin-bottom: 10px;
-        &[type="text"]{
-          min-width: 310px;
-        }
-        &[type="button"]{
-          margin-left: 0;
-        }
       }
     }
   }

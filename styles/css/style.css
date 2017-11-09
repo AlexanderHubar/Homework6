@@ -655,12 +655,6 @@ section {
   .newsletter .sign-up input {
     margin-bottom: 10px;
   }
-  .newsletter .sign-up input[type="text"] {
-    min-width: 310px;
-  }
-  .newsletter .sign-up input[type="button"] {
-    margin-left: 0;
-  }
 
   .news-list li p {
     margin-bottom: 15px;
@@ -750,9 +744,6 @@ section {
   }
   .newsletter .sign-up input {
     margin-bottom: 10px;
-  }
-  .newsletter .sign-up input[type="text"] {
-    min-width: 310px;
   }
   .newsletter .sign-up input[type="button"] {
     margin-left: 0;

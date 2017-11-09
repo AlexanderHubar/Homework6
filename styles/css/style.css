@@ -752,7 +752,7 @@ section {
     margin-bottom: 10px;
   }
   .newsletter .sign-up input[type="text"] {
-    min-width: 400px;
+    min-width: 310px;
   }
   .newsletter .sign-up input[type="button"] {
     margin-left: 0;
